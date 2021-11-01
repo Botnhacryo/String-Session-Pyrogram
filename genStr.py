@@ -13,16 +13,15 @@ from pyrogram.errors import (
 )
 
 API_TEXT = """Hi, {}.
-Bot ini dapat digunakan untuk mencari String Pyrogram\n
-Oleh @FJ_GAMING
+Bot này có thể được sử dụng để tìm kiếm String Pyogram\n
 
 
-Kirim api nya ya `API_ID` yang sama dengan `APP_ID` untuk dapatkan string."""
-HASH_TEXT = "Sekarang kirim `API_HASH`.\n\n klik /cancel Untuk membatalkan tugas."
+Gửi `API_ID` và `APP_ID` để lấy chuỗi."""
+HASH_TEXT = "Gửi ngay bây giờ `API_HASH`.\n\n Nhấp chuột /cancel để hủy một công việc."
 PHONE_NUMBER_TEXT = (
-    "Sekarang kirim no telegram mu dengan format internasional.\n"
-    "Termasuk kode negara. Contoh: **+14154566376**\n\n"
-    "Klik /cancel Untuk membatalkan tugas."
+    "Bây giờ hãy gửi số điện tín của bạn ở định dạng quốc tế.\n"
+    "Bao gồm mã quốc gia. Thí dụ: **+84123456789**\n\n"
+    "Nhấp chuột /cancel để hủy một công việc."
 )
 
 @bot.on_message(filters.private & filters.command ("start"))
